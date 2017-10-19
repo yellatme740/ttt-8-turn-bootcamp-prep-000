@@ -22,14 +22,14 @@ def position_taken?(board, index)
   end
 end
 
-  def input_to_index(user_input)
-    user_input.to_i - 1
-  end
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
 
-  def move(board, position, marker="X")
-    board[position] = marker
-  end
+def move(board, position, marker="X")
+  board[position] = marker
+end
 
-  def turn(board)
+def turn(board)
   puts "Please enter 1-9:"
 end
